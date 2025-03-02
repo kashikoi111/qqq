@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				background-color: beige;
+				background-image: url(img/3.jpg);
+				background-repeat: repeat;
+				background: size 100px;
+			}
+		</style>
+		<style type="text/css">
+			.1r{
+				margin:auto;
+			}
+			div{
+				font-size :20px
+			}
+			font{
+				color="orange" ;
+				size =4 ;
+				face="圆体";
+			}
+
+		</style>
+		<script>
+			var aa=0,bb=0,cc=0,dd=0;
+			console.log(aa);
+			function a11()
+			{
+				aa=1;
+				//window.alert(aa);
+				return aa;
+			}
+			function b11()
+			{
+				window.alert(aa);
+				aa=0;
+			}
+			function c11()
+			{
+				aa=0;
+			}
+			function d11()
+			{
+				aa=1;
+			}
+			
+			function a12()
+			{
+				bb=1;
+			}			
+			function b12()
+			{
+				bb=1;
+			}			
+			function c12()
+			{
+				bb=1;
+			}			
+			function d12()
+			{
+				bb=1;
+			}
+			
+			function a13()
+			{
+				cc=1;
+			}
+			function b13()
+			{
+				cc=1;
+			}
+			function c13()
+			{
+				cc=1;
+			}			
+			function d13()
+			{
+				cc=1;
+			}
+			
+			function a14()
+			{
+				dd=1;
+			}
+			function b14()
+			{
+				dd=1;
+			}
+			function c14()
+			{
+				dd=1;
+			}
+			function sub()
+			{
+				if(aa<=1&&bb<=1)
+				{
+					alert(cc);
+				}
+			
+			}
+
+		</script>
+	</head>
+	<body>
+		<hr align="left" size=1>
+		<div>第一部分：基础健康需求</div>
+		<br />
+		<div> 1.您的年龄阶段是?</div>
+		<div>&nbsp<input type="radio" name="year"value="A" onclick="a11()"/>A.儿童（≤12岁）</div>
+		<div>&nbsp<input type="radio" name="year"value="B" onclick="b11()"/>B.青少年（13-25岁）</div>
+		<div>&nbsp<input type="radio" name="year"value="C" onclick="c11()"/>C.成年人（26-60岁）</div>
+		<div>&nbsp<input type="radio" name="year"value="D" onclick="d11()"/>D. 老年人（≥61岁）</div>
+		<br />
+		<div>&nbsp 2.您最关注的健康需求是？（多选）</div>
+		<div>&nbsp<input type="checkbox" name="health"value="A" class="2r" onclick="a12()"/>A. 增强免疫力（如易感冒、疲劳）</div>
+		<div>&nbsp<input type="checkbox" name="health"value="B"class="2r" onclick="b12()"/>B. 改善消化（如便秘、腹胀）</div>
+		<div>&nbsp<input type="checkbox" name="health"value="C"class="2r" onclick="c12()"/>C. 延缓衰老（如皮肤状态、抗氧化）</div>
+		<div>&nbsp<input type="checkbox" name="health"value="D"class="2r" onclick="d12()"/>D. 保护视力（如长时间用眼) </div>
+		<br />
+		<div>第二部分：生活习惯与偏好</div>
+		<br />
+		<div>&nbsp 3.您日常的饮食偏好是？ </div>
+		<div>&nbsp<input type="radio" name="diet"value="A" class="3r" onclick="a13()"/>A. 喜欢酸甜口，追求清爽感  </div>
+		<div>&nbsp<input type="radio" name="diet"value="B" class="3r" onclick="b13()"/>B. 偏爱果肉饱满多汁，略带甜味</div>
+		<div>&nbsp<input type="radio" name="diet"value="C" class="3r" onclick="c13()"/>C. 注重低糖低热量，追求养生  </div>
+		<div>&nbsp<input type="radio" name="diet"value="D" class="3r" onclick="d13()"/>D. 喜欢风味浓郁，果香突出  </div>
+		<br />
+		<div>&nbsp 4.您每周的运动频率是？</div>
+		<div>&nbsp<input type="radio" name="exercise"value="A" class="4r"onclick="a14()"/>A.几乎不运动  </div>
+		<div>&nbsp<input type="radio" name="exercise"value="B" class="4r"onclick="b14()"/>B.1-3次轻度运动（如散步、瑜伽）  </div>
+		<div>&nbsp<input type="radio" name="exercise"value="C" class="4r"onclick="c14()"/>C.3-5次中高强度运动（如跑步、健身）</div>
+		<br />
+		<button type="submit"onclick="sub()"><div>提交</div></button>
+		<a href="橙曦晨露.html"></a>
+		<a href="奉园绯雪.html"></a>
+		<a href="暮岁凝华.html"></a>
+		<a href="朱砂点翠.html"></a>
+		<hr align="left" size=1>
+
+	</body>
+</html>
+
+
+
